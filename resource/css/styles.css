@@ -1,0 +1,243 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html{
+  background-color: #ffffff;
+  color: #555;
+  font-family: "Redressed","Verdana";
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+.headername{
+  color: #fff;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  margin-bottom: 20px;
+}
+.row{
+  width: 1140px;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+.logo{
+  float: left;
+  height: 100px;
+  width: auto;
+  margin-top: 20px;
+}
+.main-nav{
+  float: right;
+  list-style: none;
+  margin-top: 70px;
+}
+.main-nav li{
+  display: inline-block;
+  margin-left: 40px;
+  font-family: monospace;
+  font-size: 150%;
+}
+.main-nav li a{
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+  border-bottom: 2px solid rgb(255, 119, 245);
+  transition: 0.5s;
+}
+.header-box{
+  height: 100vh;
+  background-image:linear-gradient(rgba(10, 10, 10, 0.7),rgba(15, 15, 15, 0.6)),url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.header-text{
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%,-50%);
+}
+.btn:link,
+.btn:visited{
+  text-decoration: none;
+  border: 1px solid rgb(235, 69, 193);
+  border-radius: 30px;
+  margin-left: 20px;
+  padding: 5px 10px;
+  color:rgb(255, 255, 255);
+  font-family: monospace;
+  font-size: 15px;
+  transition: 0.5s;
+}
+.btn-full:link,
+.btn-full:visited{
+  background-color: rgb(255, 119, 245);
+  transition: 0.5s;
+}
+.btn-full:hover,
+.btn-full:active{
+  background-color: rgb(214, 35, 207);
+  transition: 0.5s;
+}
+.btn-ghost:link,
+.btn-ghost:visited{
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+.btn-ghost:hover,
+.btn-ghost:active{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 119, 245);
+    transition: 0.5s;
+}
+.section1{
+  height: 100vh;
+  background-image: linear-gradient(rgba(220, 220, 220, 0.7),rgba(220, 220, 220, 0.6)), url(../img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 5%;
+}
+.card{
+  width: 30%;
+  background-color: #fff;
+  height: 550px;
+  padding: 10px;
+  display: inline-block;
+  margin-right: 25px;
+-webkit-box-shadow: 0px 0px 50px 17px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 50px 17px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 50px 17px rgba(0,0,0,0.75);
+}
+.card-image{
+  width: 100%;
+}
+.card h3{
+  padding: 20px;
+  text-align: center;
+}
+.card h4{
+  padding: 20px;
+  text-align: center;
+  color: rgb(255, 119, 245);
+  margin-bottom: -20px;
+}
+.card p{
+  font-size: 70%;
+  padding: 20px;
+}
+.btn-card:link,
+.btn-card:visited{
+  margin: 35%;
+  text-decoration: none;
+  color: rgb(255, 119, 245);
+  padding: 3px;
+  border: 1px solid rgb(255, 119, 245);
+  border-radius: 30px;
+  font-size: 75%;
+}
+.btn-card:hover,
+.btn-card:active{
+  color: #fff;
+  background-color: rgb(255, 119, 245);
+  transition: 0.5s;
+}
+
+.section2{
+  height: 100vh;
+  background-color: #f0dede;
+}
+.team{
+  padding-top: 70px;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(255, 119, 245);
+  font-family: monospace;
+  margin-bottom: 30px;
+}
+.team-card{
+  width: 100%;
+  padding: 20px;
+  height: 200px;
+  }
+.card-image{
+
+}
+.player1{
+  height: 100%;
+  float: left;
+  display: inline-block;
+  -webkit-box-shadow: -9px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -9px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -9px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.player1detail{
+  float: left;
+  margin-left: 40px;
+  display: inline-block;
+  width: 800px;
+}
+.player1name{
+  color: rgb(255, 119, 245);
+  font-size: 150%;
+  margin-bottom: 20px;
+  font-family: Verdana;
+}
+.detail1{
+  font-size: 85%;
+  font-family: arial;
+}
+.clearfix{
+  clear: both;
+}
+.footer{
+  height: 10vh;
+  background-color: #000;
+}
+.footer-div{
+  width: 45%;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+.pf{
+  font-size: 50%;
+  padding: 20px;
+}
+.pf2{
+  padding: 20px;
+  font-family: arial;
+}
+.pf2 i{
+  font-size: 120%;
+  margin-right: 10px;
+  color: rgb(255, 119, 245);
+}
+.rtbutton{
+  position: fixed;
+  z-index: 99;
+  bottom: 30px;
+  right: 30px;
+  color: rgb(255, 119, 245);
+  font-size: 200%;
+}
+.rtbutton a:link,
+.rtbutton a:visited{
+  color: rgb(255, 119, 245);
+}
+.rtbutton a:hover,
+.rtbutton a:active{
+  color: rgb(154, 143, 153);
+}
